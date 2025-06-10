@@ -1,0 +1,59 @@
+/* Main container */
+.welcome-main-div {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading style */
+.welcome-main-div h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Button style */
+.recommend-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.recommend-button:hover {
+    background-color: #45a049;
+}
+
+/* Button focus effect */
+.recommend-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px #4caf50;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .welcome-main-div {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .welcome-main-div h2 {
+        font-size: 20px;
+    }
+
+    .recommend-button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}

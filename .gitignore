@@ -1,0 +1,9 @@
+.env
+.env.production
+.env.development
+node_modules
+__pycache__
+.DS_Store
+.python-version
+venv
+db.sqlite3
